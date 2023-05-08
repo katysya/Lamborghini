@@ -1,0 +1,14 @@
+@import './reset.scss';
+@import './colors.scss';
+@import './mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+
+body {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 16px;
+    background-color: var(--background);
+}
+
+.container {
+    margin: 0 80px;
+}
